@@ -1,0 +1,30 @@
+{
+  "baseUrl": "http://localhost:23081",
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "modifyObstructiveCode": false, 
+  "defaultCommandTimeout": 10000,
+  "numTestsKeptInMemory": 0,
+  "responseTimeout": 60000,
+  "screenshotsFolder": "tests/e2e/screenshots", 
+  "watchForFileChanges": false,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "env": { 
+    "login": "",
+    "password": "",
+    "urlk": "http://localhost:8087",
+    "urlk2009": "http://localhost:8084",
+    "url": "http://localhost:23080",
+    "kvplfl": "stackgateway/fl/kvpl",
+    "asyncfl":"stackgateway/fl/async-state",    
+    "authLogin": "stackgateway/auth/login"
+  },
+  "projectId": "821a52"
+}
+
